@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Finance Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Personal Finance Journey</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="intro">
+        <div class="container">
+            <h2>Welcome to my financial blog!</h2>
+            <p>Follow along as I share tips, advice, and my own journey toward financial freedom.</p>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Recent Posts</h2>
+
+            <article>
+                <h3>Budgeting 101: How to Take Control of Your Finances</h3>
+                <p class="post-date">January 20, 2025</p>
+                <p>Budgeting is the first step to mastering your finances. Here’s how you can start creating a budget that works for you...</p>
+                <a href="#">Read more</a>
+            </article>
+
+            <article>
+                <h3>Top 5 Ways to Save Money Every Month</h3>
+                <p class="post-date">January 15, 2025</p>
+                <p>Looking to save money? Here are five simple tips that can help you save more each month...</p>
+                <a href="#">Read more</a>
+            </article>
+
+            <article>
+                <h3>Investing for Beginners: Where to Start</h3>
+                <p class="post-date">January 10, 2025</p>
+                <p>Investing can seem overwhelming, but it's one of the best ways to grow your wealth over time. Here's a beginner's guide...</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Jane, a personal finance enthusiast and blogger. I started this blog to share my tips, experiences, and lessons I've learned on my journey to financial independence.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or just want to chat about personal finance, feel free to reach out!</p>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Personal Finance Blog</p>
+        </div>
+    </footer>
+</body>
+</html>
+
